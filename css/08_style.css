@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(207, 25, 55);
+}
+h1{
+    color: rgb(225, 209, 212);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid rgb(207, 25, 55);
+}

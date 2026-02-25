@@ -1,0 +1,13 @@
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    border: 5px solid rgb(99, 34, 34);
+    padding: 30px;
+}
