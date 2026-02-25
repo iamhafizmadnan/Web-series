@@ -1,0 +1,14 @@
+.parent{
+    width: 50%;
+    background-color: lightblue;
+    list-style: none;
+}
+html{
+    font-size: 1rem;
+}
+ul{
+    font-size: 50px;
+}
+li{
+    font-size: 30px;
+}
