@@ -1,0 +1,41 @@
+/* Text Alignment */
+/* text decoration */
+/* text transform */
+/* text indent */
+/* text shadow */
+/* text overflow */
+/* text wrap */
+/* text orientation */
+/* text spacing */
+/* text stroke */
+/* text overflow */
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+    text-shadow: 2px 2px 4px orange;
+}
+
+p{
+    text-align: justify;
+    text-align: center;
+    text-decoration-thickness: 10px;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 1.56;
+}
+.id{
+text-align: center;
+}
+.name{
+    text-align: center;
+}
+button{
+    /* show button in ceter */
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
