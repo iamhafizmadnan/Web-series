@@ -1,0 +1,18 @@
+h1
+{
+    color : rgb(236, 234, 224);
+    background-color: darkviolet;
+    padding: 20px;
+}
+
+p
+{
+    color : rgb(236, 234, 224);
+    background-color: rgb(211, 0, 155);
+    padding: 20px;
+}
+a{
+    color : rgb(236, 234, 224);
+    background-color: rgb(211, 0, 155);
+    display: inline-block;
+}
