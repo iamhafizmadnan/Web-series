@@ -1,0 +1,83 @@
+h1{
+    color : rgb(236, 234, 224);
+    background-color: darkviolet;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+.parentdiv
+{
+    background-color: rgb(211, 0, 155);
+    height: 450px;
+    width: 700px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    left : 20%;
+}   
+.child{
+    position : absolute;
+
+}
+.child1
+{
+    background-color: rgb(236, 234, 224);
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute; 
+    top: 0;
+    right: 0;
+   
+}
+.child2
+{
+    background-color: rgb(229, 200, 54);
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* left: 150px; */
+}
+.child3
+{
+    background-color: rgb(236, 234, 224);
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    /* top: 250px; */
+    /* left: 250px; */
+    top: 0;
+    left: 0;
+
+}
+.child4
+{
+    background-color: rgb(229, 200, 54);
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+     bottom: 0;
+     left: 0;
+    /* top: 350px; */
+    /* left: 350px; */
+}
+h2{
+    text-align: center;
+    /* in div center these given  text */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold ;
+}
