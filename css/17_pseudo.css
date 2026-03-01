@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+body{
+    background-color: black;
+    color: white;
+}
+
+h1::before
+{
+    content: "Before";
+    color: rgb(46, 220, 19);
+    /* background-color: darkviolet; */
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+p::after
+{
+    content:"After";
+    color: rgb(46, 220, 19);
+    /* background-color: darkviolet; */
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+p::first-letter
+{
+    color: rgb(46, 220, 19);
+    font-size: 30px;
+    font-weight: bold;
+}
+p::selection
+{
+    color: rgb(46, 220, 19);
+    background-color: darkviolet;
+}
