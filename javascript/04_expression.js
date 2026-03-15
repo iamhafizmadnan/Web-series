@@ -33,3 +33,10 @@ var modu = 34 % 3
 console.log(modu)
 
 
+// 3. STRING OPERATION
+//  There are a few ways to concatenate strings in javascript. The most common way is to use the operator. 
+
+var str1 = 'hello'
+var str2 = 'adnan'
+var str3 = str1 + str2
+console.log(str3)
