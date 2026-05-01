@@ -83,3 +83,11 @@ if (x < y || y < z) {
 if (!(x > y)) {
     console.log("x is not greater than y");
 }
+
+// 6. Ternary operator
+// The ternary operator is a shorthand way of writing an if-else statement. It takes three operands: a condition, a value to return if the condition is true, and a value to return if the condition is false. 
+// The syntax for the ternary operator is: condition ? value_if_true : value_if_false.
+
+let age = 18;
+let canVote = age >= 18 ? "You can vote" : "You cannot vote";
+console.log(canVote);
